@@ -1,0 +1,26 @@
+/* src/components/VerticalTiles.css */
+
+.vertical-tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start hidden for animation */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity */
+  }
+  
+  .vertical-tiles.visible {
+    opacity: 1; /* Make visible when the class is added */
+  }
+  
+  /* Optional: Add keyframes for more complex animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slide in from below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

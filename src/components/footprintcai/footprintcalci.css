@@ -1,0 +1,99 @@
+/* src/components/FootprintCalculator.css */
+
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.form-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2ac0ef;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #dfe6e9;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.custom-select {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #2d3436;
+    background-color: #dfe6e9;
+    outline: none;
+    margin-right: 10px;
+}
+
+.next-button {
+    background-color: #2ac0ef;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #218dbb;
+}
+
+.result-section {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: White background for better contrast */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Round corners for aesthetic */
+}
+
+.result-section h2 {
+    font-size: 1.5rem;
+    color: black; /* Change text color to black */
+}
+
+.result-section span {
+    color: black; /* Change span color to black for consistency */
+}
+
+/* Additional styling for previous button */
+.prev-button {
+    background-color: #636e72;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.prev-button:hover {
+    background-color: #4b5457;
+}
