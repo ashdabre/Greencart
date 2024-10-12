@@ -13,10 +13,10 @@ Domain and Tools:
 Domain: Sustainable e-commerce, environmental conservation, and green technology.
 
 Tools & Technologies:
-1. Jetpack Compose
-2. Kotlin
-3. Room Database
-4. Retrofit
-5. Firebase
-6. Google Maps API
-7. Payment Gateway Integration
+1. Jetpack Compose.
+2. Kotlin.
+3. Room Database.
+4. Retrofit.
+5. Firebase.
+6. Google Maps API.
+7. Payment Gateway Integration.
