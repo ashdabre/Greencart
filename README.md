@@ -6,7 +6,7 @@ team Members:
 3. Ashal Dabre
 4. Prince Carval
 
-Project Abstract: GreenCart – A Sustainable E-Commerce Platform
+Project Abstract: GreenCart – A Sustainable E-Commerce Platform.
 GreenCart is an eco-conscious e-commerce platform designed to promote sustainable shopping practices. The platform aims to connect environmentally responsible vendors with eco-aware consumers, providing a marketplace where users can shop for products that minimize environmental impact. Key features of GreenCart include eco-friendly product filters, carbon footprint tracking, and integration with local green initiatives to promote sustainability.
 
 Domain and Tools:
